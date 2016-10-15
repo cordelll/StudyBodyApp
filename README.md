@@ -1,11 +1,11 @@
 
-Android BluetoothLeGatt Sample
+StudyBody Sports Assistant Android App
 ===================================
-
+//TO EDIT
 This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
 to transmit arbitrary data between devices.
 
-Introduction
+Introduction 
 ------------
 
 This sample shows a list of available Bluetooth LE devices and provides
@@ -27,7 +27,7 @@ Pre-requisites
 - Android Build Tools v23.0.2
 - Android Support Repository
 
-Screenshots
+Screenshots // TO EDIT
 -------------
 
 <img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
@@ -43,9 +43,6 @@ Support
 
 - Google+ Community: https://plus.google.com/communities/105153134372062985968
 - Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-BluetoothLeGatt
 
 Patches are encouraged, and may be submitted by forking this project and
 submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
