@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ImageButton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/running_road"
+    android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:id="@+id/firstTwoButtons"
+        android:orientation="horizontal"
+        android:paddingLeft="9.0dip"
+        android:paddingTop="4.5dip"
+        android:paddingRight="9.0dip"
+        android:paddingBottom="4.5dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:layout_width="0.0dip"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2.5dp"
+        android:background="@drawable/buttons_selector"
+        android:id="@+id/searchImageButton"
+        android:layout_weight="1.0" />
+
+    <ImageButton
+        android:id="@+id/startAnalyseButton"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="2.5dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_width="0.0dip"
+        android:layout_height="150dp"
+        android:layout_row="0"
+        android:layout_weight="1.0"
+        android:background="@drawable/goto_analyzing_buttons_selector"
+        android:text="Analysis"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondTwoButtons"
+        android:layout_below="@+id/firstTwoButtons"
+        android:orientation="horizontal"
+        android:paddingLeft="9.0dip"
+        android:paddingTop="4.0dip"
+        android:paddingRight="9.0dip"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/alertDialog"
+            android:layout_width="0.0dip"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/profile_button_selector"
+            android:layout_weight="1.0"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            />
+
+        <ImageButton
+            android:id="@+id/databaseButton"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_width="0.0dip"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_weight="1.0"
+            android:background="@drawable/batabase_button"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/secondTwoButtons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5.0dip"
+        android:paddingTop="3.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Your profile"
+        android:textColor="#ffffff"
+        android:id="@+id/lbl_yourProfile"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender: "/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:id="@+id/lbl_genderTest" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age: "/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:id="@+id/lbl_ageTest"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:text="Athletecism: "/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:id="@+id/lbl_athletecismTest" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:text="Resting HR: "/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:id="@+id/lbl_restingHR" />
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:text="Maximal HR: "/>
+
+            <TextView
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="none"
+                android:id="@+id/lbl_maximalHR" />
+
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BPM"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout><!-- From: file:/C:/Users/cordell/AndroidStudioProjects/StudyBody_ver.7%20(10.07.2016)/Application/src/main/res/layout/activity_starting_page.xml -->

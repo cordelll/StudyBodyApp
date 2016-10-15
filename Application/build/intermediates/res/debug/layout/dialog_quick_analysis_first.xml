@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10.0dip"
+    android:paddingTop="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingBottom="10.0dip">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lying_on_a_bed" />
+        <TextView
+            android:textSize="17dp"
+            android:text="Lie down on a bed"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:textColor="#f2f2f2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ten_minutes" />
+        <TextView
+            android:textSize="17dp"
+            android:text="Relax for 10 minutes before taking a measurement"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:textColor="#f2f2f2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/do_not_move" />
+        <TextView
+            android:textSize="17dp"
+            android:text="Do not move during analyze"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:textColor="#f2f2f2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calm_down" />
+        <TextView
+            android:textSize="17dp"
+            android:text="Try to calm down, pacify yourself"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#f2f2f2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true">
+
+        <CheckBox
+            android:id="@+id/restORtest"
+            android:checked="false"
+            android:textSize="17dp"
+            android:textColor="#f2f2f2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Override your resting heart rate"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#f2f2f2"
+            android:id="@+id/warnIfCheched"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout><!-- From: file:/C:/Users/cordell/AndroidStudioProjects/StudyBody_ver.7%20(10.07.2016)/Application/src/main/res/layout/dialog_quick_analysis_first.xml -->

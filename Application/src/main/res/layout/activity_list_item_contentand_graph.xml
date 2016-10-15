@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.bluetoothlegatt.ListItemContentandGraph">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Type"
+        android:id="@+id/type_analysis_graph"
+        android:textSize="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Time"
+        android:layout_marginLeft="0dp"
+        android:id="@+id/time_analysis_graph"
+        android:layout_below="@+id/type_analysis_graph"
+        android:layout_marginStart="13dp"
+        android:textSize="13dp" />
+
+
+
+    <fragment
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.android.bluetoothlegatt.GraphFragment"
+        android:id="@+id/gfragment"
+        android:layout_gravity="center_horizontal"
+        tools:layout="@layout/graph_fragment" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gfragment"
+        android:id="@+id/tableLayout">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:text="TRIMP "
+                android:layout_marginTop="15dp"
+                android:id="@+id/trimp"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="23dp"
+                android:text="x"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/trimpResult"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:layout_marginLeft="90dp"
+                android:text=" "
+                android:layout_marginTop="15dp"
+                android:layout_column="3"
+                android:id="@+id/trimpB"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="23dp"
+                android:text=" "
+                android:layout_marginLeft="2dp"
+                android:layout_column="4"
+                android:layout_marginTop="15dp"
+                android:id="@+id/trimpResultB"
+
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVG HR "
+                android:textSize="15dp"
+                android:id="@+id/AVGHR_lbl"
+                android:layout_below="@+id/trimp"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:layout_marginLeft="2dp"
+                android:textSize="15dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/avg_analysis_graph"
+                android:layout_below="@+id/trimpResult"
+                android:layout_toEndOf="@id/AVGHR_lbl"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:id="@+id/AVGHR_lblB"
+                android:layout_column="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_marginLeft="2dp"
+                android:layout_column="4"
+                android:textSize="15dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/avg_analysis_graphB"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAX HR "
+                android:textSize="15dp"
+                android:id="@+id/MAXHR_lbl"
+                android:layout_below="@+id/avg_analysis_graph"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="x"
+                android:id="@+id/max_analysis_graph"
+                android:layout_marginLeft="2dp"
+                android:textSize="15dp"
+                android:layout_toEndOf="@+id/MAXHR_lbl"
+                android:layout_below="@+id/avg_analysis_graph"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:layout_column="3"
+                android:id="@+id/MAXHR_lblB"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" "
+                android:id="@+id/max_analysis_graphB"
+                android:layout_column="4"
+                android:layout_marginLeft="2dp"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MIN HR "
+                android:textSize="15dp"
+                android:id="@+id/MINHB_lbl"
+                android:layout_below="@+id/MAXHR_lbl"
+                android:layout_column="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="x"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/min_analysis_graph"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_marginLeft="90dp"
+                android:textSize="15dp"
+                android:id="@+id/MINHB_lblB"
+                android:layout_below="@+id/MAXHR_lbl"
+                android:layout_column="3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" "
+                android:layout_column="4"
+                android:layout_marginLeft="2dp"
+                android:id="@+id/min_analysis_graphB"
+                android:textSize="15dp" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="15dp">
+            <View android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:layout_column="1"/>
+            <View android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:layout_column="1"/>
+
+            <View android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="90dp"
+                android:id="@+id/lineCompare1"
+                android:background="@android:color/transparent"
+                android:layout_column="1"/>
+            <View android:layout_width="match_parent"
+                android:id="@+id/lineCompare2"
+                android:layout_height="5dp"
+                android:background="@android:color/transparent"
+                android:layout_column="1"/>
+            <!-- holo_orange_light -->
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Compare"
+            android:id="@+id/compareBtn"
+            android:layout_column="3"
+            android:layout_marginEnd="33dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/tableLayout" />
+
+
+</RelativeLayout>

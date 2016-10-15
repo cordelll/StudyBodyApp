@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10.0dip"
+    android:paddingTop="10.0dip"
+    android:paddingRight="10.0dip"
+    android:paddingBottom="10.0dip">
+
+
+    <LinearLayout
+        android:id="@+id/firstSpinner"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <TextView
+
+            android:id="@+id/lbl_Type"
+            android:text="Type"
+            android:textSize="15dp"
+            android:textColor="#f2f2f2"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerType"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:textColor="#f2f2f2"
+        android:id="@+id/lbl_description"
+        android:textSize="15dp"
+        android:text="@string/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="#f2f2f2"
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+
+
+
+
+
+
+
+</LinearLayout>

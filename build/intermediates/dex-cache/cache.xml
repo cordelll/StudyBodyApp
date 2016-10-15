@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\pre-dexed\debug\classes-0886da9f140840211da97dfb1ca2cde3090b262c.jar" />
+    </item>
+    <item
+        jar="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\pre-dexed\debug\internal_impl-23.2.1-91838a9a1fbd3ae3b9a782d6d4a76e756918f181.jar" />
+    </item>
+    <item
+        jar="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\pre-dexed\debug\classes-ff407797974e302155d3080022e9048a69663e89.jar" />
+    </item>
+    <item
+        jar="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\pre-dexed\debug\classes-0b872d331c97b9357c111f8baa36e713490c8453.jar" />
+    </item>
+    <item
+        jar="C:\Users\cordell\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\pre-dexed\debug\support-annotations-23.2.1-b7620b0a2f5dfa9e54a113e8b0051f73a02f6cfa.jar" />
+    </item>
+    <item
+        jar="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\pre-dexed\debug\classes-2f448e1c0a0fe87723fbbcd0228d4e14a9357891.jar" />
+    </item>
+    <item
+        jar="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\libs\GraphView-4.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8bd182a66f13dedad362bfbf992be96de2be5969">
+        <dex dex="C:\Users\cordell\AndroidStudioProjects\StudyBody_ver.7 (10.07.2016)\Application\build\intermediates\pre-dexed\debug\GraphView-4.0.1-6b23a244f2d65776f3f2e9d50d44deaeb37ebe8e.jar" />
+    </item>
+
+</items>

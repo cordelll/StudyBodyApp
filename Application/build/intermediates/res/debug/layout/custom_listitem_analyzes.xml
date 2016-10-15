@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#9c9c9c"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gfragment"
+            android:id="@+id/tableLayout">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="[time]"
+                    android:id="@+id/startTimeofAnalyse"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp" />
+
+            </TableRow>
+
+            <TableRow >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="[type]"
+                    android:id="@+id/typeofAnalys"
+                    android:layout_column="0"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp" />
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Description:"
+                    android:textColor="#ffffff"
+                    android:layout_column="0"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="[description]"
+                    android:id="@+id/descriptionofAnalyse"
+                    android:textColor="#ffffff"
+                    android:layout_column="0"
+                    android:gravity="center_vertical"
+                    android:layout_margin="2dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/cordell/AndroidStudioProjects/StudyBody_ver.7%20(10.07.2016)/Application/src/main/res/layout/custom_listitem_analyzes.xml -->
