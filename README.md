@@ -5,6 +5,7 @@ The purpose of this study was to develop a personal sports assisting mobile phon
 
 Introduction 
 ------------
+<img src="screenshots/StudyBody2.png" height="150" alt="Screenshot"/>
 
 
 
@@ -24,7 +25,7 @@ Screenshots // TO EDIT
 -------------
 
 <img src="screenshots/StudyBody2.png" height="150" alt="Screenshot"/> 
-<img src="screenshots/screen2.jpg" height="400" alt="Screenshot"/> <img src="screenshots/screen3.jpg" height="400" alt="Screenshot"/> <img src="screenshots/screen4.jpg" height="400" alt="Screenshot"/>
+<img src="screenshots/screens2.jpg" height="400" alt="Screenshot"/> <img src="screenshots/screens3.jpg" height="400" alt="Screenshot"/> <img src="screenshots/screens4.jpg" height="400" alt="Screenshot"/>
 
 Getting Started
 ---------------
