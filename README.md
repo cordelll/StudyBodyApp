@@ -1,9 +1,7 @@
 
 StudyBody Sports Assistant Android App
 ===================================
-//TO EDIT
-This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
-to transmit arbitrary data between devices.
+The purpose of this study was to develop a personal sports assisting mobile phone application that works with a wearable heart rate sensor. The application that allows users to both track their fitness and gain a deeper understanding of his or her own body. The application provides functionalities to determine user’s body recovery level based on scientific methods and to do workout analyzes in which user can see effort that he or she made during the training session. Additionally, the app lets user to compare completed training sessions between each other. Also, user can provide his or her own physical data in order to make calculations and analyzes precise within the app.
 
 Introduction 
 ------------
@@ -26,7 +24,7 @@ Screenshots // TO EDIT
 -------------
 
 <img src="screenshots/StudyBody2.png" height="150" alt="Screenshot"/> 
-<img src="screenshots/screen2.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screen3.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screen4.jpeg" height="400" alt="Screenshot"/>
+<img src="screenshots/screen2.jpg" height="400" alt="Screenshot"/> <img src="screenshots/screen3.jpg" height="400" alt="Screenshot"/> <img src="screenshots/screen4.jpg" height="400" alt="Screenshot"/>
 
 Getting Started
 ---------------
