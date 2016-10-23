@@ -27,7 +27,7 @@ Screenshots
 
 <img src="screenshots/screens1.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens2.jpeg" height="400" alt="Screenshot"/>
 <img src="screenshots/screens3.jpeg" height="400" alt="Screenshot"/> 
-<img src="screenshots/screens4.png" height="400" alt="Screenshot"/> <img src="screenshots/screens5.jpeg" height="400" alt="Screenshot"/>
+<img src="screenshots/screens5.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens4.png" height="400" alt="Screenshot"/>
 
 About the app
 -------------
