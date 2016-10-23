@@ -8,17 +8,12 @@ to transmit arbitrary data between devices.
 Introduction 
 ------------
 
-This sample shows a list of available Bluetooth LE devices and provides
-an interface to connect, display data and display GATT services and
-characteristics supported by the devices.
 
-It creates a [Service][1] for managing connection and data communication with a GATT server
-hosted on a given Bluetooth LE device.
 
-The Activities communicate with the Service, which in turn interacts with the [Bluetooth LE API][2].
 
-[1]:http://developer.android.com/reference/android/app/Service.html
-[2]:https://developer.android.com/reference/android/bluetooth/BluetoothGatt.html
+The Activities communicate with the Service, which in turn interacts with the [Bluetooth LE API][1].
+
+[1]:https://developer.android.com/reference/android/bluetooth/BluetoothGatt.html
 
 Pre-requisites
 --------------
@@ -30,13 +25,18 @@ Pre-requisites
 Screenshots // TO EDIT
 -------------
 
-<img src="screenshots/1-main.png" height="400" alt="Screenshot"/> <img src="screenshots/2-detail.png" height="400" alt="Screenshot"/> 
+<img src="screenshots/screen1.png" height="400" alt="Screenshot"/> <img src="screenshots/screen2.png" height="400" alt="Screenshot"/>
+<img src="screenshots/screen3.png" height="400" alt="Screenshot"/> <img src="screenshots/screen4.png" height="400" alt="Screenshot"/>
 
 Getting Started
 ---------------
 
 This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
+
+The best way to try out the app is to use real device. Plug it in, enable Developer setting on phone, and then run the project.
+
+
 
 Support
 -------
