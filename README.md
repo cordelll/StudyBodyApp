@@ -24,7 +24,9 @@ Pre-requisites
 Screenshots // TO EDIT
 -------------
 
-<img src="screenshots/screens1.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens2.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens3.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens4.jpeg" height="400" alt="Screenshot"/>
+<img src="screenshots/screens1.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens2.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens3.jpeg" height="400" alt="Screenshot"/> 
+
+<img src="screenshots/screens4.jpeg" height="400" alt="Screenshot"/>
 
 Getting Started
 ---------------
