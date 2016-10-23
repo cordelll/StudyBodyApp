@@ -8,9 +8,9 @@ Introduction
 ------------
 <img src="screenshots/StudyBody2.png" height="150" alt="Screenshot"/>
 
-StudyBody was my Bachelor thesis work. It is based on Google's BluetoothLeGatt project ([Bluetooth LE API][1])
+To reach the goals of this Bchelor degree thesis work was essential to have a real-time heart rate data from a user transmitting into a mobile phone app. All phones with operating system starting from Android 4.3 (API Level 18) have support for Bluetooth Low Energy (BLE) that allows to discover devices and retrieve data from them. Most importantly, the power consumption of BLE is very low, so communication with the heart rate sensor can last for much longer than via normal Bluetooth. The heart rate sensor used in this project is Polar H7 Heart Rate Sensor developed by Finnish company [Polar][2].
 
-The app was tested on huawei honor device together with heart rate sensor - Polar H7 Heart Rate Sensor developed by Finnish company [Polar][2].
+Due to the deadlines I was in a hurry to write the thesis paper, so the code looks pretty messy and not everywhere commented. 
 
 [1]:https://developer.android.com/reference/android/bluetooth/BluetoothGatt.html
 [2]:http://www.polar.com/en/products/accessories/H7_heart_rate_sensor
@@ -22,20 +22,44 @@ Pre-requisites
 - Android Build Tools v23.0.2
 - Android Support Repository
 
-Screenshots // TO EDIT
+Screenshots
 -------------
 
 <img src="screenshots/screens1.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screens2.jpeg" height="400" alt="Screenshot"/>
 <img src="screenshots/screens3.jpeg" height="400" alt="Screenshot"/> 
 <img src="screenshots/screens4.png" height="400" alt="Screenshot"/>
 
+About the app
+-------------
+
+The application allows to create a profile where the user can provide own physical data, 
+that increases precision of analyzes within the app. With a paired heart rate sensor, 
+user is able to view own heart rate activity and other useful information updating in real time. 
+
+One of the main features of the app is a Recovery Analysis. A one-minute analysis that helps 
+user to determine if the body is ready for the next training session. It notifies if the user 
+has not fully recovered from last workout and if there is a risk of being injured. Also, the 
+user can update own resting heart rate value as he or she gets fitter. 
+
+Another feature in StudyBody is a long-term Workout Analysis of training sessions, where user
+can record own heart activity during the workout and store all the data in the database. After
+the training is completed user anytime can come back to view and analyze the session. The app
+presents data of desired completed training with a graph that shows user’s heart rate activity
+during the workout. 
+
+Most importantly, the application displays to user the workload value of specific training
+session. It represents the impact of the training session in workload units that are understandable
+for the user. With those units user can make a comparison of workload of one training session with 
+another or to compare workload values of different users.
+
+
 Getting Started
 ---------------
 
 This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
-
-The best way to try out the app is to use real device. Plug it in, enable Developer setting on phone, and then run the project.
+The best way to try out the app is to use real device. Plug it in, enable Developer setting on phone, 
+and then run the project.
 
 
 
