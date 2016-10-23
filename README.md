@@ -25,8 +25,8 @@ Pre-requisites
 Screenshots // TO EDIT
 -------------
 
-<img src="screenshots/StudyBody2.png" height="400" alt="Screenshot"/> <img src="screenshots/screen2.png" height="400" alt="Screenshot"/>
-<img src="screenshots/screen3.png" height="400" alt="Screenshot"/> <img src="screenshots/screen4.png" height="400" alt="Screenshot"/>
+<img src="screenshots/StudyBody2.png" height="150" alt="Screenshot"/> 
+<img src="screenshots/screen2.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screen3.jpeg" height="400" alt="Screenshot"/> <img src="screenshots/screen4.jpeg" height="400" alt="Screenshot"/>
 
 Getting Started
 ---------------
