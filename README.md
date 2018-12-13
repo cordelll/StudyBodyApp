@@ -9,8 +9,7 @@ Introduction
 <img src="screenshots/StudyBody2.png" height="150" alt="Screenshot"/>
 
 To reach the goals of this Bchelor degree thesis work was essential to have a real-time heart rate data from a user transmitting into a mobile phone app. All phones with operating system starting from Android 4.3 (API Level 18) have support for Bluetooth Low Energy (BLE) that allows to discover devices and retrieve data from them. Most importantly, the power consumption of BLE is very low, so communication with the heart rate sensor can last for much longer than via normal Bluetooth. The heart rate sensor used in this project is Polar H7 Heart Rate Sensor developed by Finnish company [Polar][2].
-
-Due to the deadlines I was in a hurry to write the thesis paper, so the code looks pretty messy and not everywhere commented. 
+ 
 
 [1]:https://developer.android.com/reference/android/bluetooth/BluetoothGatt.html
 [2]:http://www.polar.com/en/products/accessories/H7_heart_rate_sensor
